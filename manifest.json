@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Website Blocker",
+  "version": "1.0",
+  "description": "Blocks visits to a specific website.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"    
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
